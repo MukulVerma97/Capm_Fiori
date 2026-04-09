@@ -1,0 +1,4 @@
+ID,customerName,CustomerMobile,storeName,netPrice,createdAt,createdBy,modifiedAt,modifiedBy
+d12a9b10-1e34-4f22-9bc1-6f3b2c2a1001,Amit Sharma,9876543210,Noida SuperMart,1599.50,2023-01-12T10:15:00.000Z,amit.sharma@example.com,2023-01-12T11:00:00.000Z,system@example.com
+c89fe310-98a5-4a30-9b02-fbb21fe62002,Pooja Verma,9123456780,Delhi Central Store,2499.00,2023-03-18T14:20:00.000Z,pooja.verma@example.com,2023-03-18T15:10:00.000Z,manager@example.com
+a77cc920-5db3-4c0a-a9be-122a5fdc3003,Rahul Gupta,9988776655,Gurgaon FreshMart,799.75,2023-05-05T09:45:00.000Z,rahul.gupta@example.com,2023-05-05T10:30:00.000Z,system@example.com

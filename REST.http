@@ -1,0 +1,70 @@
+### below is query 
+GET http://localhost:4004/odata/v4/products-mgmt/Products
+
+### read
+
+GET  http://localhost:4004/odata/v4/products-mgmt/Products('100009')
+
+### post
+
+POST  http://localhost:4004/odata/v4/products-mgmt/Products
+Content-Type: application/json
+
+{"ID": "10001",
+  "name": "Samsung Ultra S6 Pro",
+  "price":100000,
+  "discount": 25,
+  "stock": 90
+}
+### 
+
+GET  http://localhost:4004/odata/v4/products-mgmt/Products('10001')
+
+###PUT
+
+PUT http://localhost:4004/odata/v4/products-mgmt/Products('10001')
+Content-Type: application/json
+
+{
+    "ID": "10001",
+  "name": "Samsung Ultra S6 Pro",
+  "price": 60000,
+  "discount": 15,
+  "stock": 90
+}
+###
+
+GET  http://localhost:4004/odata/v4/products-mgmt/Products('10001')
+
+
+
+### PATCH
+
+PATCH  http://localhost:4004/odata/v4/products-mgmt/Products('10001')
+Content-Type: application/json
+
+{
+    "stock" :50,
+    "discount" : 10
+}
+
+### Delete
+
+DELETE  http://localhost:4004/odata/v4/products-mgmt/Products('10001')
+
+
+###
+
+POST  http://localhost:4005/odata/v4/products-mgmt/Products
+Content-Type: application/json
+
+{  "name": "Dummy Phone",
+  "price":100000,
+  "discount": 25,
+  "stock": 90
+}
+
+
+### order quires
+
+POST  http://localhost:4005/odata/v4/products-mgmt/Orders
